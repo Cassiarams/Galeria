@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body{
+    font-family: sans-serif;
+    /* width: 500px;
+    margin: 0 auto; */
+    margin-left: 40px;
+}
+
+h1{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+details{
+    margin: 20px;
+    padding: 13px;
+}
+summary{
+    /* background-color: rgba(0, 255, 255, 0.476); */
+    /* margin-bottom: 20px; */
+    padding: 13px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    font-weight: 600;
+    /* text-align: center; */
+}
+
+summary:hover{
+    background-color: rgba(0, 255, 255, 0.504);
+}
+
+details p{
+    line-height: 1.5rem;
+    margin-bottom: 10px;
+}
+details img{
+    width: 100%;
+}
